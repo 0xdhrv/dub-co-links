@@ -1,0 +1,43 @@
+name: Fetch Dub Links
+
+on:
+  schedule:
+    # Runs every 4 hours
+    - cron: '0 */4 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Cache Dub Links Data
+        id: cache-dub-data
+        uses: actions/cache@v4
+        with:
+          path: data/dub-links.json
+          key: dub-links-${{ github.run_id }}
+          restore-keys: |
+            dub-links-
+
+      - name: Fetch Dub Links
+        env:
+          DUB_API_TOKEN: ${{ secrets.DUB_API_TOKEN }}
+        run: node scripts/fetch-dub-links.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data/dub-links.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update Dub links - $(date -u +'%Y-%m-%d %H:%M:%S UTC')" && git push)

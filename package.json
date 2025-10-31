@@ -1,0 +1,16 @@
+{
+  "name": "dub-co-links",
+  "version": "0.1.0",
+  "description": "Automated fetcher for Dub.co links that stores results in data/dub-links.json and commits via GitHub Actions.",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "fetch": "node scripts/fetch-dub-links.js"
+  }
+}
