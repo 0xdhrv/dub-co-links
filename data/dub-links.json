@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2025-10-31T14:53:54.130Z",
+  "fetchedAt": "2025-10-31T16:05:49.028Z",
   "count": 10,
   "links": [
     {
@@ -29,7 +29,7 @@
       "title": "Google Developer Program  |  Google for Developers",
       "description": "No description",
       "image": "https://www.gstatic.com/devrel-devsite/prod/vfe17804c88ef6022fad1ddf837c323ee30f747a71d900f69699aa6fc2a2a7546/images/developer-profile-share.svg",
-      "clicks": 0,
+      "clicks": 1,
       "qrCode": "https://api.dub.co/qr?url=https://go.dhrv.pw/g-dev?qr=1"
     },
     {
@@ -49,7 +49,7 @@
       "title": "0xdhrv",
       "description": "Visit www.linkedin.com/in/0xdhrv/",
       "image": null,
-      "clicks": 2,
+      "clicks": 3,
       "qrCode": "https://api.dub.co/qr?url=https://go.dhrv.pw/linkedin?qr=1"
     },
     {
