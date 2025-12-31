@@ -1,7 +1,17 @@
 {
-  "fetchedAt": "2025-12-31T16:05:56.492Z",
-  "count": 11,
+  "fetchedAt": "2025-12-31T20:05:07.991Z",
+  "count": 12,
   "links": [
+    {
+      "url": "raycast://extensions/raycast/raycast/confetti",
+      "shortLink": "https://go.dhrv.pw/nye-2025",
+      "archived": false,
+      "title": "Confetti",
+      "description": "Visit extensions/raycast/raycast/confetti",
+      "image": null,
+      "clicks": 8,
+      "qrCode": "https://api.dub.co/qr?url=https://go.dhrv.pw/nye-2025?qr=1"
+    },
     {
       "url": "https://luma.com/2pmaoidc",
       "shortLink": "https://go.dhrv.pw/raycafe",
@@ -79,7 +89,7 @@
       "title": null,
       "description": null,
       "image": null,
-      "clicks": 730,
+      "clicks": 738,
       "qrCode": "https://api.dub.co/qr?url=https://go.dhrv.pw?qr=1"
     },
     {
