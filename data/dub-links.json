@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-01-21T20:09:07.126Z",
+  "fetchedAt": "2026-01-22T00:23:09.936Z",
   "count": 12,
   "links": [
     {
@@ -89,7 +89,7 @@
       "title": null,
       "description": null,
       "image": null,
-      "clicks": 999,
+      "clicks": 1000,
       "qrCode": "https://api.dub.co/qr?url=https://go.dhrv.pw?qr=1"
     },
     {
