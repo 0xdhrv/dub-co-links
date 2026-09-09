@@ -2,6 +2,11 @@
 
 Small Node.js project with a GitHub Actions workflow that fetches links from the Dub API every 4 hours and stores them in a JSON file (`data/dub-links.json`).
 
+<a href="https://github.com/0xdhrv/dub-co-links/stargazers"><img src="https://shieldcn.dev/github/stars/0xdhrv/dub-co-links.svg?variant=secondary" alt="Stars" /></a>
+<a href="https://github.com/0xdhrv/dub-co-links/blob/main/LICENSE"><img src="https://shieldcn.dev/github/license/0xdhrv/dub-co-links.svg?variant=secondary" alt="License" /></a>
+<a href="https://github.com/0xdhrv/dub-co-links/commits"><img src="https://shieldcn.dev/github/commits/0xdhrv/dub-co-links.svg?variant=secondary" alt="Last commit" /></a>
+<a href="https://github.com/0xdhrv/dub-co-links/actions"><img src="https://shieldcn.dev/github/ci/0xdhrv/dub-co-links.svg?variant=secondary" alt="CI" /></a>
+
 ## Setup Instructions
 
 ### 1. Clone and install
